@@ -1,0 +1,29 @@
+---
+title: "regutil"
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Edit README.Rmd instead. -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+# regutil
+
+`regutil` is an R package scaffold for reusable utilities.
+
+## Install during development
+
+```{r}
+# install.packages("pak")
+pak::pak("devtools")
+devtools::load_all()
+```
+
+## Example
+
+```{r}
+hello_regutil()
+```
+

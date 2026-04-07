@@ -1,0 +1,21 @@
+Package: regutil
+Title: Utilities for Regulatory Data Workflows
+Version: 0.0.0.9000
+Authors@R:
+    person(
+      given = "First",
+      family = "Last",
+      email = "first.last@example.com",
+      role = c("aut", "cre")
+    )
+Description: Starter package structure for shared helpers, validation, and
+    reusable utilities. Replace the placeholder metadata and extend the
+    package with functions, tests, and documentation as development proceeds.
+License: What license is it under?
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+
